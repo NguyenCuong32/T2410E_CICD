@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "T2410E_CICD": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7082",
+      "launchBrowser": false
+    }
+  }
+}
