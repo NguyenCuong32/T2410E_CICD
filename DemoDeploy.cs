@@ -18,6 +18,6 @@ public class DemoDeploy
     public IActionResult Run([HttpTrigger(AuthorizationLevel.Anonymous, "get", "post")] HttpRequest req)
     {
         _logger.LogInformation("C# HTTP trigger function processed a request.");
-        return new OkObjectResult("Welcome to Azure Functions! T2410E");
+        return new OkObjectResult($"Welcome to Azure Functions! T2410E - Demo Deploy {DateTime.Now}");
     }
 }
